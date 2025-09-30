@@ -1,9 +1,11 @@
 <script setup>
-import {RouterView } from 'vue-router'
+import HeroSection from './components/HeroSection.vue';
+// Impor section lainnya di sini nanti
+// import AboutSection from '@/components/AboutSection.vue'
 </script>
 
 <template>
-  <RouterView />
+  <v-main>
+    <HeroSection />
+    </v-main>
 </template>
-
-<style></style>
