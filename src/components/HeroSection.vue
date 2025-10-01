@@ -1,3 +1,7 @@
+<script setup>
+import { Icon } from '@iconify/vue';
+</script>
+
 <template>
   <section id="hero">
     <v-container fluid class="hero-section d-flex align-center">
@@ -6,9 +10,10 @@
           <h1>
             MOBILE <br><span class="font-highlight">DEVELOPER</span>
           </h1>
-          <div class="d-flex justify-center ga-4 my-4">
-            <Icon icon="logos:android-icon" width="25" height="25" />
-              <Icon icon="logos:android-icon" width="25" height="25" />
+          <div class="d-flex justify-center ga-4">
+            <Icon icon="logos:android-icon" width="32" height="32" />
+              <Icon icon="material-icon-theme:kotlin" width="32" height="32" />
+              <Icon icon="logos:flutter" width="28" height="28" />
           </div>
         </v-col>
       </v-row>
@@ -18,15 +23,15 @@
 
 
 <style scoped>
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Tiny5&display=swap');
 
 * {
-  font-family: "Zalando", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 h1 {
-  font-size: 4rem;
+  font-size: 5rem;
   font-weight: 700;
   color: #333;
   margin-bottom: 1rem;
@@ -39,7 +44,8 @@ h1 {
 
 .hero-section {
   /* Warna latar belakang gelap */
-  min-height: 100vh;
+  
+  min-height: 80vh;
   /* Tinggi minimal seukuran layar penuh */
 }
 
