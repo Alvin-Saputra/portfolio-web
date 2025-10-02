@@ -19,5 +19,8 @@ import ContactSection from './components/ContactSection.vue';
 </template>
 
 <style lang="scss">
+html {
+  scroll-behavior: smooth;
+}
 /* Kosongkan atau hapus jika tidak ada style lain */
 </style>

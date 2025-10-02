@@ -10,7 +10,7 @@
                 <h1>Portfolio</h1>
             </div>
             <ul class="nav-routes">
-                <a href="#home">Home</a>
+                <a href="#hero">Home</a>
                 <a href="#about">About</a>
                 <a href="#projects">Projects</a>
                  <a href="#contact">Contact</a>
