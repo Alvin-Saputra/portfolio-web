@@ -41,7 +41,7 @@ header {
 
             h1 {
                 font-size: 18px;
-                color:#333
+                color:white
             }
         }
 
@@ -51,7 +51,7 @@ header {
             justify-content: flex-end;
             gap: 64px;
             list-style: none;
-            color:#333;
+            color:white;
             a {
                 text-decoration: none;
                 color: inherit;

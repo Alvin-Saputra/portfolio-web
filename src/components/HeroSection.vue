@@ -30,10 +30,12 @@ import { Icon } from '@iconify/vue';
   font-family: "Montserrat", sans-serif;
 }
 
+
+
 h1 {
   font-size: 5rem;
   font-weight: 700;
-  color: #333;
+  color: white;
   margin-bottom: 1rem;
   line-height: 0.9;
 }
@@ -46,6 +48,7 @@ h1 {
   /* Warna latar belakang gelap */
   
   min-height: 80vh;
+   /* background-image: url('/Background2.jpg'); */
   /* Tinggi minimal seukuran layar penuh */
 }
 
@@ -56,4 +59,5 @@ h1 {
   white-space: normal;
   line-height: 1.2;
 }
+
 </style>

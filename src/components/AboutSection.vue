@@ -3,17 +3,17 @@ import portraitImage from '@/assets/portrait.png'
 </script>
 
 <template>
-  <section id="hero">
-    <v-container fluid class="hero-section d-flex align-center">
+  <section id="about">
+    <v-container fluid class="about-section d-flex align-center">
       <v-row justify="center" align="center">
         
         <v-col cols="12" md="5" class="text-center text-md-left">
           
-          <h1 class="text-h2 font-weight-bold mb-4 text-black">
-            Web designer & webflow developer
+          <h1 class="text-h3 font-weight-medium mb-4 text-white">
+            Hi, I'm Alvin Saputra
           </h1>
 
-          <p class="text-h6 font-weight-light mb-8 text-grey-lighten-1">
+          <p class="font-weight-light mb-8 text-grey-lighten-1">
             Diving into the world of design, I've had the privilege of
             working on diverse projects, each leaving a unique mark.
           </p>
@@ -55,15 +55,16 @@ import portraitImage from '@/assets/portrait.png'
 
 
 <style scoped>
-.hero-section { /* Warna latar belakang gelap */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+  font-family: 'Montserrat', sans-serif;
+}
+.about-section { /* Warna latar belakang gelap */
   min-height: 100vh; /* Tinggi minimal seukuran layar penuh */
 }
 
-/* Style tambahan untuk memastikan teks di dalam tombol bulat 
-  bisa turun baris (wrap) dengan baik.
-*/
-.v-btn--rounded {
-  white-space: normal;
-  line-height: 1.2;
+h1{
+  color: white;
 }
+
 </style>
