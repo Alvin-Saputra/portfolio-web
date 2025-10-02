@@ -14,6 +14,8 @@ import { Icon } from '@iconify/vue';
             <Icon icon="logos:android-icon" width="32" height="32" />
               <Icon icon="material-icon-theme:kotlin" width="32" height="32" />
               <Icon icon="logos:flutter" width="28" height="28" />
+              <Icon icon="material-icon-theme:figma" width="32" height="32" />
+              
           </div>
         </v-col>
       </v-row>

@@ -21,6 +21,11 @@ const props = defineProps({
     type: String,
     // Berikan nilai default berupa kode warna yang valid
     default: '#202020',
+  },
+  projectUrl: {
+    type: String,
+    required: false,
+    default: '#'
   }
 });
 </script>
@@ -32,10 +37,10 @@ const props = defineProps({
         <div>
           <h2 class="text-h5 font-weight-bold">{{ title }}</h2>
           <div class="font-weight-medium text-grey-lighten-1 mb-2">{{ subtitle }}</div>
-          <v-btn append-icon="$vuetify" variant="tonal" class="align-self-start mt-4 mb-4" rounded>
-            View
-            Project
+          <v-btn append-icon="mdi-open-in-new" variant="tonal" class="align-self-start mt-4 mb-4" rounded v-bind:href="projectUrl" target="_blank">
+            View Project
           </v-btn>
+
         </div>
 
 

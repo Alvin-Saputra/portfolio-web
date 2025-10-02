@@ -10,9 +10,10 @@
                 <h1>Portfolio</h1>
             </div>
             <ul class="nav-routes">
-                <a href="">Home</a>
-                <a href="">About</a>
-                <a href="">Projects</a>
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                 <a href="#contact">Contact</a>
             </ul>
         </nav>
     </header>

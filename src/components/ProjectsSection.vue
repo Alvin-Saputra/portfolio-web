@@ -8,28 +8,32 @@ const projects = [
     subtitle: "Flutter Mobile UI/UX Design",
     description: "A sleek and intuitive mobile app for book lovers to discover, track, and discuss their favorite reads.",
     image: "/bookly.jpg", // Gambar dari folder public
-    gradienColor: "#802c08"
+    gradienColor: "#802c08",
+    projectUrl: "https://github.com/Alvin-Saputra/book-tracking-app"
   },
   {
     title: "Geo-Face",
     subtitle: "Android Development (Kotlin)",
     description: "An efficient attendance tracking application for businesses, built natively for Android with Kotlin.",
     image: "/geo-face.jpg", // Gambar dari folder public
-    gradienColor: "#1c5264"
+    gradienColor: "#1c5264",
+    projectUrl: "https://github.com/GeoFace-AttendanceApp"
   },
   {
     title: "Bin-Buddy",
     subtitle: "Android Development (Kotlin)",
     description: "A visually rich fan page dedicated to the manga 'Berserk', created with Vue.js and Vuetify.",
     image: "/bin-buddy.jpg", // Gambar dari folder public
-     gradienColor: "#0c8008"
+     gradienColor: "#0c8008",
+     projectUrl: "https://github.com/BinBuddy"
   },
   {
     title: "Tomato-DiagLeaf",
     subtitle: "Flutter Mobile",
     description: "A visually rich fan page dedicated to the manga 'Berserk', created with Vue.js and Vuetify.",
     image: "/tomato-diagleaf.jpg", // Gambar dari folder public
-    gradienColor: "#0c8008" // Contoh penggunaan prop color
+    gradienColor: "#0c8008",
+    projectUrl: "https://github.com/Tomato-DiagLeaf" 
   },
 
 ];
@@ -62,6 +66,7 @@ const projects = [
             :description="project.description"
             :image="project.image"
             :gradien-color="project.gradienColor"
+            :project-url="project.projectUrl"
           />
         </v-col>
       </v-row>
