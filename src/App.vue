@@ -3,6 +3,7 @@ import HeroSection from './components/HeroSection.vue';
 import AboutSection from './components/AboutSection.vue';
 import NavHeader from './components/NavHeader.vue';
 import ProjectsSection from './components/ProjectsSection.vue';
+import ContactSection from './components/contactSection.vue';
 </script>
 
 <template>
@@ -12,6 +13,7 @@ import ProjectsSection from './components/ProjectsSection.vue';
       <HeroSection />
       <AboutSection />
       <ProjectsSection />
+      <ContactSection />
     </v-main>
   </v-app>
 </template>
